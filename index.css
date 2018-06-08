@@ -147,7 +147,7 @@ li a:hover {
     width: 60%;
     height: 400px;
     border-radius: 20px;
-    background: linear-gradient(to right, #7e8269, #fff);
+    background: linear-gradient(to right, #342526, #fff);
     box-shadow: 10px 10px 5px #888888;
     opacity: 0.8;
     filter: alpha(opacity=100);
@@ -160,15 +160,15 @@ li a:hover {
     height: 50px;
     font-size: 30px;
     font-family: heiti;
-    color: #3c3031;
+    color: #fff
 }
 
 .study-object {
     float: left;
     width: 90%;
     height: 300px;
-    margin-left: 4%;
-    background: #342526;
+    margin-left: 5%;
+    background: #192314;
     display: flex;
     flex-wrap: wrap;
 }
@@ -214,7 +214,7 @@ li a:hover {
 }
 
 .tour-box {
-    margin: 10px;
+    margin: 5px auto;
     padding: 0 4%;
     width: 90%;
     height: 400px;
@@ -285,6 +285,29 @@ li a:hover {
     z-index: 200;
     background-size: 100%;
     background: url("http://images.gaga.me/photos2/2018/0601/5b10e8a7f297f.jpeg");
+}
+
+.thumbnail-box {
+    float: right;
+    width: 30%;
+    height: 370px;
+    margin: 10px;
+}
+
+.thumbnail {
+    float: right;
+    width: 45%;
+    height: 80px;
+    margin: 5px;
+    background: #616570;
+}
+
+.thumbnail-text {
+    float: right;
+    width: 40%;
+    height: 80px;
+    margin: 5px;
+    color: #fff;
 }
 
 .sport-box {
