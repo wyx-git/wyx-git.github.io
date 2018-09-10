@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'iconfont';  /* project id 725473 */
+    src: url('//at.alicdn.com/t/font_725473_1e6o98nrota.eot');
+    src: url('//at.alicdn.com/t/font_725473_1e6o98nrota.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_725473_1e6o98nrota.woff') format('woff'),
+    url('//at.alicdn.com/t/font_725473_1e6o98nrota.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_725473_1e6o98nrota.svg#iconfont') format('svg');
+}
+.menu{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    z-index: 99999;
+    font-family: iconfont;
+    font-size: 18px;
+    background: #202020a6;
+    color: #FFF;
+    opacity: 0.6;
+}
+.menu .user{
+    float: right;
+}
+.menu ul{
+    list-style: none;
+    float: right;
+    font-family: iconfont;
+}
+.menu ul li{
+    float: left;
+}
+.banner{
+    width: 100%;
+    height: 455px;
+    background: #d7d7d7;
+    position: relative;
+    overflow-x: hidden;
+}
+.banner .img{
+    width: 100%;
+    height: 455px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.img:nth-child(1){
+    background: url("../img/ruili_img1.jpg");
+}
+.img:nth-child(2){
+    background: url("../img/ruili_img2.jpg");
+}
+.img:nth-child(3){
+    background: url("../img/ruili_img3.jpg");
+}
+.img:nth-child(4){
+    background: url("../img/ruili_img6.jpg");
+}
+.imgText{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    background: #202020a6;color: #FFF;
+    letter-spacing: 0;
+    font-size: 24px;
+    line-height: 44px;
+    padding: 0 22px 0 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.now{
+    left: 0;
+    animation: now 5s infinite;
+}
+@keyframes now {
+    0%{
+        left: 0;
+    }
+    80%{
+        left: -100vw;
+    }
+    100%{
+        left: -100vw;
+    }
+}
+.next{
+    left: 100vw;
+    animation: next 5s infinite;
+}
+@keyframes next {
+    0%{
+        left: 100vw;
+    }
+    80%{
+        left: 0;
+    }
+    100%{
+        left: 0;
+    }
+}
+.item-list{
+    width: 220px;
+    height: 334px;
+    position: absolute;
+    right: 70px;
+    top: 70px;
+    text-align: left;
+    background: #202020a6;
+    z-index: 99999;
+}
+.item{
+    position: relative;
+    z-index: 5;
+    display: block;
+    width: 100%;
+    color: #FFF;
+    letter-spacing: 0;
+    font-size: 14px;
+    line-height: 44px;
+    /*overflow: hidden;*/
+    /*text-overflow: ellipsis;*/
+    /*white-space: nowrap;*/
+    opacity: .6;
+    filter: alpha(opacity=60);
+    padding: 0 22px 0 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.item::after{
+    content: "";
+    position: absolute;
+    width: 188px;
+    height: 1px;
+    background: rgba(255,255,255,0.1);
+    left: 16px;
+    bottom: 0;
+}
+.itemText{
+    opacity: 1;
+    height: 64px;
+    font-size: 20px;
+    line-height: 150%;
+    font-weight: bold;
+}

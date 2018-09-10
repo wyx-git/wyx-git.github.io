@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+一、请选择下面结果为true的表达式
+A.null instanceof Object
+B.null == undefined
+C.NaN == NaN
+D.parseInt("8",8) == 8
+E.100 == "100"
+
+二、实现一个通用的事件绑定函数，addEvent(dom,type,handler)
+
+三、不使用全局变量，使用闭包写一个函数，实现返回从1逐渐增加的数值，比如第一次调用返回1，第二次返回2，第三次返回3...
+
+四、实现一个对象拷贝函数extend(target,source,isDeep)
+
+五、下面一段代码：
+var name = "Bill ";
+var aFamousPerson = {
+name:"Steve ",
+fiend:{
+name:"Mark",
+showMyName:function(){alert(this.name)}
+}
+}
+1)调用aFamousPerson.friend.showMyName(),显示结果是哪个？
+2)如果加一段代码，show = aFamousPerson.friend.showMyName,然后再执行show(),显    示的结果是哪个？
+3)如果希望依次显示，Bill、Steve、Mark,代码该如何写？
+
+六、实现一个trim函数，用于去除字符串左右的空格，可以如下调用：
+"  ab cd e ".trim; //结果为"ab cd e"
+
+七、有一段html结构如下：
+<ul id="item">
+<li>内容 1</li>
+....
+<li>内容 1</li>
+</ul>
+其中li节点数量很大且可能动态变化。
+实现一个功能，当点击这些节点的时候，弹出li节点的坐标信息及节点内容。
+
+八、谈谈你所知道的跨域解决方案（至少3种）。
+
+九、http协议有哪些请求类型？有哪些常见的状态码？什么是长连接？如果要将页面缓存一天，服务器该如何设置？
+十、有一个url为 htttp://www.example.com/getUserInfo?userId=123&valideCode=abcd的页面，
+会展示用户的一些私密信息（比如薪资），请考虑如何解决以下安全问题：
+1）防止SQL注入攻击。
+2）防止XSS攻击。
+3）防止CSRF攻击。
+
+十一、一个页面从输入url到页面加载完成，整个过程中发生了什么？请谈谈你的理解（过  程尽可能详细）。
+
+十二、如果一个页面被投诉说加载很慢，需要你来给出方案，你有哪些措施？（至少10条）
+
+十三、HTML5规范已于2014年10日定稿，列出你所知道的HTML5新技术（10条）
+
+十四、有10万cdkey号码（数字、字母组成的序列号，每个序列号可以在网站上兑换一定    的物品， 比如购物券等）。给出发放cdkey的一个方案。
+1）用户在网站上登录后领取，每人限领一张。
+2）在用户量并发比较大的时候，不允许出现一个cdkey发放给多人的情况。
+3）给出价格设计并解释主要步骤流程。
+
+</body>
+</html>
